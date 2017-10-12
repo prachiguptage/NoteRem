@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlAddMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prachigupta.noterem.AddActivity">
+
+    <ScrollView
+        android:id="@+id/svAddMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/eTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_title"
+                android:maxLength="@integer/title_maxlength"
+                android:maxLines="@integer/title_maxline"
+                android:minLines="@integer/title_min_line"
+                android:textColor="@color/coloBlack"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/title_maxlength"
+                android:maxLines="@integer/title_maxline"
+                android:minLines="@integer/title_min_line"
+                android:textColor="@color/coloBlack"
+                android:textSize="@dimen/text_size"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/eContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/eTitle"
+                android:gravity="top"
+                android:hint="@string/text_content_hint"
+                android:inputType="textMultiLine"
+                android:maxLines="@integer/text_maxlines"
+                android:minLines="@integer/text_minlines"
+                android:scrollHorizontally="false"
+                android:textColor="@color/coloBlack"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tvTitle"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLines="@integer/text_maxlines"
+                android:minLines="@integer/text_minlines"
+                android:scrollHorizontally="false"
+                android:textColor="@color/coloBlack"
+                android:textSize="@dimen/text_size"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/map_space"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/map_height"
+                android:layout_below="@id/tvContent"
+                android:layout_margin="@dimen/map_margin"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

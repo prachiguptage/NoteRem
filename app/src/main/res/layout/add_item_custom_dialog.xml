@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/addItem"
+        android:textColor="@color/coloBlack"
+        android:textSize="@dimen/text_size" />
+
+    <EditText
+        android:id="@+id/eAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_checkList"
+        android:textColor="@color/coloBlack" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/margin_checkList"
+            android:onClick="next"
+            android:text="@string/next"
+            android:textColor="@color/coloBlack"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/margin_checkList"
+            android:onClick="ok"
+            android:text="@string/ok"
+            android:textColor="@color/coloBlack"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_checkList"
+            android:layout_toLeftOf="@id/tvOk"
+            android:layout_toStartOf="@id/tvOk"
+            android:onClick="cancel"
+            android:text="@string/cancel"
+            android:textColor="@color/coloBlack"
+            android:textSize="@dimen/text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

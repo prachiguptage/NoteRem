@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NoteRem</string>
+    <string name="item_add_note">Add Note</string>
+    <string name="item_color">Change Color</string>
+    <string name="custom_text">Text</string>
+    <string name="custom_checkList">Check List</string>
+    <string name="custom_reminder">Reminder</string>
+    <string name="main_add_text">Add Text</string>
+    <string name="add_note">Add Note</string>
+    <string name="item_save">Save</string>
+    <string name="text_title">Title</string>
+    <string name="text_content_hint">Description</string>
+    <string name="addChecklistItem">Add Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="next">Next</string>
+    <string name="addItem">Add Item</string>
+    <string name="reminder_Note">Message</string>
+    <string name="picker">Picker</string>
+    <string name="once">Once</string>
+    <string name="daily">Daily</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="item_edit">Edit</string>
+    <string name="item_delete">Delete</string>
+    <string name="geofence">GeoFencing</string>
+    <string name="title_activity_map">Map</string>
+    <string name="Search">Search Location</string>
+</resources>

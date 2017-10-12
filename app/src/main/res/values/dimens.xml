@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_dialog_margin">5dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="margin_list_note">8dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="dialog_text_size">18sp</dimen>
+    <dimen name="dialog_text_size_heading">20sp</dimen>
+    <dimen name="margin_checkList">5dp</dimen>
+    <dimen name="reminder_margin">15dp</dimen>
+    <dimen name="image_width">40dp</dimen>
+    <dimen name="image_height">40dp</dimen>\
+    <dimen name="map_height">400dp</dimen>
+    <dimen name="map_margin">10dp</dimen>
+</resources>

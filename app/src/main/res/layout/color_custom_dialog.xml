@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bIndigo"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_indigo"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bBlueGrey"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_blueGrey"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bGrey"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_grey"
+            android:onClick="colorClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bBrown"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_brown"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bOrange"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_orange"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bYellow"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_yellow"
+            android:onClick="colorClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bLime"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_lime"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bGreen"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_green"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bBlue"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_blue"
+            android:onClick="colorClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bPurple"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_purple"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bPink"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_pink"
+            android:onClick="colorClick" />
+
+        <Button
+            android:id="@+id/bRed"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/color_dialog_margin"
+            android:background="@color/theme_red"
+            android:onClick="colorClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

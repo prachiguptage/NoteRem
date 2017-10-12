@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="title_maxlength">60</integer>
+    <integer name="title_maxline">3</integer>
+    <integer name="title_min_line">1</integer>
+    <integer name="reminder_maxline">5</integer>
+    <integer name="reminder_messageLength">120</integer>
+    <integer name="text_minlines">5</integer>
+    <integer name="text_maxlines">15</integer>
+</resources>

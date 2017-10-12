@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_note"
+        android:textColor="@color/coloBlack"
+        android:textSize="@dimen/dialog_text_size_heading" />
+
+    <Button
+        android:id="@+id/bText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_note_add_black_24dp"
+        android:drawableStart="@drawable/ic_note_add_black_24dp"
+        android:onClick="addClick"
+        android:text="@string/custom_text"
+        android:textColor="@color/coloBlack"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <Button
+        android:id="@+id/bCheckList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_receipt_black_24dp"
+        android:drawableStart="@drawable/ic_receipt_black_24dp"
+        android:onClick="addClick"
+        android:text="@string/custom_checkList"
+        android:textColor="@color/coloBlack"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <Button
+        android:id="@+id/bReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_query_builder_black_24dp"
+        android:drawableStart="@drawable/ic_query_builder_black_24dp"
+        android:onClick="addClick"
+        android:text="@string/custom_reminder"
+        android:textColor="@color/coloBlack"
+        android:textSize="@dimen/dialog_text_size" />
+
+</LinearLayout>

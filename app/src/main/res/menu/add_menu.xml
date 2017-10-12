@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/iAddSave"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/item_save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/iAddColor"
+        android:icon="@color/theme_yellow"
+        android:title="@string/item_color"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/iGeoFencing"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="@string/geofence"
+        app:showAsAction="ifRoom" />
+
+</menu>

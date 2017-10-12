@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="theme_red">#EF9A9A</color>
+    <color name="theme_pink">#F48FB1</color>
+    <color name="theme_purple">#CE93D8</color>
+    <color name="theme_blue">#90CAF9</color>
+    <color name="theme_green">#A5D6A7</color>
+    <color name="theme_lime">#E6EE9C</color>
+    <color name="theme_yellow">#FFF59D</color>
+    <color name="theme_orange">#FFCC80</color>
+    <color name="theme_brown">#BCAAA4</color>
+    <color name="theme_grey">#E0E0E0</color>
+    <color name="theme_indigo">#9FA8DA</color>
+    <color name="theme_blueGrey">#B0BEC5</color>
+
+    <color name="colorButtonBackground">#E0E0E0</color>
+    <color name="coloBlack">#000000</color>
+</resources>
